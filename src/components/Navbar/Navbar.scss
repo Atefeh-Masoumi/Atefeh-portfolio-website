@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
 .app__navbar {
     width: 100%;
   
@@ -19,16 +21,21 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    .p-nav-logo {
+      color: black;
+      font-weight: bold;
+      font-size: 2rem;
+      font-family: 'Lora', serif;
+     }
+    // img {
+    //   width: 90px;
+    //   height: 20px;
   
-    img {
-      width: 90px;
-      height: 20px;
-  
-      @media screen and (min-width: 2000px) {
-        width: 180px;
-        height: 40px;
-      }
-    }
+    //   @media screen and (min-width: 2000px) {
+    //     width: 180px;
+    //     height: 40px;
+    //   }
+    // }
   }
   
   .app__navbar-links {
