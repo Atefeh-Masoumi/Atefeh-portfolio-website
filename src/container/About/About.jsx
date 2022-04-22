@@ -4,8 +4,8 @@ import { images } from '../../constants';
 import AppWrap from '../../wrapper/AppWrap';
 const abouts =[
   {title:"Frontend Development", description:"Frontend developer with passion for building beautiful and functional web applications", imgUrl:images.about01},
-  {title:"Web Animation", description:"I Love to implement all kind of animations", imgUrl:images.about02},
-  {title:"React Developer", description:"I love developing web appications with React", imgUrl:images.about04},
+  {title:"UI/UX", description:"I'm Familiar with the latest UI/UX trends and practices, I can create a user-friendly and engaging user experience.", imgUrl:images.about02},
+  {title:"React Developer", description:"I have learned react development fundamentally and I have work with this in the last year", imgUrl:images.about04},
   
 ]
 const About = () => {
