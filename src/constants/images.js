@@ -16,7 +16,7 @@ import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 
-
+import quote from '../assets/quote.png';
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -27,9 +27,9 @@ import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
 
+import portfolio from '../assets/portfolio.png'
+import bistro from '../assets/bistro.png'
 
-
-import nb from '../assets/nb.png';
 import rrd from '../assets/react-router-dom.png';
 import bootstrap from '../assets/bootstrap.png'
 
@@ -56,8 +56,7 @@ export default {
   circle,
   logo,
   bootstrap,
- 
- 
-  nb,
-  
+  quote,
+  portfolio,
+  bistro,
 };
