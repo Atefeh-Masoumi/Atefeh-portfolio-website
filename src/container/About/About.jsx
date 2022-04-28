@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import './About.scss';
 import { images } from '../../constants';
-import AppWrap from '../../wrapper/AppWrap';
+import {AppWrap ,MotionWrap} from '../../wrapper';
 const abouts =[
   {title:"Frontend Development", description:"Frontend developer with passion for building beautiful and functional web applications", imgUrl:images.about01},
   {title:"UI/UX", description:"I'm Familiar with the latest UI/UX trends and practices, I can create a user-friendly and engaging user experience.", imgUrl:images.about02},
@@ -34,4 +34,8 @@ const About = () => {
       );
 }
  
-export default AppWrap (About,'about');
+export default AppWrap(
+  MotionWrap(About, 'app__about'),
+  'about',
+  'app__whitebg',
+);

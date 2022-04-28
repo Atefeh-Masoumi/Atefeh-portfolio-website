@@ -21,10 +21,10 @@ export const works =[
     },
     {
         _type: "works",
-    codeLink: "",
+    codeLink: "https://github.com/Atefeh-Masoumi/Atefeh-portfolio-website",
     description: " My portfolio UI created using React JS, Sass",
     imgUrl: images.about01,
-    projectLink: "",
+    projectLink: "https://atefeh-portfolio-website.vercel.app/",
     tags: ["UI/UX", "All"],
     title: "Portfolio Website ",
     },
@@ -48,7 +48,7 @@ export const works =[
     },
     {
         _type: "works",
-    codeLink: "",
+    codeLink: "https://github.com/Atefeh-Masoumi/qoute-genrator",
     description: "A good qoute is always inspiring",
     imgUrl: images.about01,
     projectLink: "",
