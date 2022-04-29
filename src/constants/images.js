@@ -26,7 +26,7 @@ import about04 from '../assets/about04.png';
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
-
+import todo from '../assets/todo.png';
 import portfolio from '../assets/portfolio.png';
 import bistro from '../assets/bistro.png';
 import shop from '../assets/shop.png';
@@ -61,4 +61,5 @@ export default {
   bistro,
   shop,
   expense,
+  todo,
 };

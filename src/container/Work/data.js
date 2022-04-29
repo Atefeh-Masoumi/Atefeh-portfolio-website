@@ -40,10 +40,10 @@ export const works =[
     },
     {
         _type: "works",
-    codeLink: "",
+    codeLink: "https://github.com/Atefeh-Masoumi/Todo-App",
     description: " A good Todo list is always a must implemented using React JS",
-    imgUrl: images.about01,
-    projectLink: "",
+    imgUrl: images.todo,
+    projectLink: "https://todo-app-chi-beige.vercel.app/",
     tags: ["React JS","Web App", "All"],
     title: "Todo Application",
     },
