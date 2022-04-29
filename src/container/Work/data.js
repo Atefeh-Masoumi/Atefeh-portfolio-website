@@ -3,10 +3,10 @@ export const works =[
    
     {
         _type: "works",
-    codeLink: "",
+    codeLink: "https://github.com/Atefeh-Masoumi/Ecommerce-Website",
     description: "SPA which I implemented the UI by using React JS",
-    imgUrl: images.about01,
-    projectLink: "",
+    imgUrl: images.shop,
+    projectLink: "https://ecommerce-website-murex.vercel.app/",
     tags: ["React JS", "All"],
     title: "MERN E-commerce Website",
     },

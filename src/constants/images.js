@@ -27,9 +27,9 @@ import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
 
-import portfolio from '../assets/portfolio.png'
-import bistro from '../assets/bistro.png'
-
+import portfolio from '../assets/portfolio.png';
+import bistro from '../assets/bistro.png';
+import shop from '../assets/shop.png';
 import rrd from '../assets/react-router-dom.png';
 import bootstrap from '../assets/bootstrap.png'
 
@@ -59,4 +59,5 @@ export default {
   quote,
   portfolio,
   bistro,
+  shop,
 };
