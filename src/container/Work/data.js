@@ -31,10 +31,10 @@ export const works =[
     },
     {
         _type: "works",
-    codeLink: "",
+    codeLink: "https://github.com/Atefeh-Masoumi/Expense-Tracker",
     description: "Live expense tracker to manage your budget using React JS",
-    imgUrl: images.about01,
-    projectLink: "",
+    imgUrl: images.expense,
+    projectLink: "https://expense-tracker-iota-five.vercel.app/",
     tags: ["React JS","Web App", "All"],
     title: "Expense Tracker",
     },

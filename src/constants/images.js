@@ -31,8 +31,8 @@ import portfolio from '../assets/portfolio.png';
 import bistro from '../assets/bistro.png';
 import shop from '../assets/shop.png';
 import rrd from '../assets/react-router-dom.png';
-import bootstrap from '../assets/bootstrap.png'
-
+import bootstrap from '../assets/bootstrap.png';
+import expense from '../assets/expense.png';
 export default {
   email,
   mobile,
@@ -60,4 +60,5 @@ export default {
   portfolio,
   bistro,
   shop,
+  expense,
 };
