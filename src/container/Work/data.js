@@ -17,7 +17,7 @@ export const works =[
     description: "This Restaurant website is implemented with javascript,bootstrap, ajax,Json ",
     imgUrl: images.bistro,
     projectLink: "https://chinese-bistro.vercel.app/",
-    tags: ["JavaScript", "All"],
+    tags: ["JavaScript","Bootstrap", "All"],
     title: "Chinese Bistro Website ",
     },
     {
@@ -26,7 +26,7 @@ export const works =[
     description: " My portfolio UI created using React JS, Sass",
     imgUrl: images.portfolio,
     projectLink: "https://atefeh-portfolio-website.vercel.app/",
-    tags: ["React JS", "All"],
+    tags: ["React JS","Sass", "All"],
     title: "Portfolio Website ",
     },
     {
