@@ -26,7 +26,7 @@ export const works =[
     description: " My portfolio UI created using React JS, Sass",
     imgUrl: images.portfolio,
     projectLink: "https://atefeh-portfolio-website.vercel.app/",
-    tags: ["UI/UX", "All"],
+    tags: ["React JS", "All"],
     title: "Portfolio Website ",
     },
     {

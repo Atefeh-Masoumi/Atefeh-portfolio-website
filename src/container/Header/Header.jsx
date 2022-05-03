@@ -2,7 +2,7 @@ import './Header.scss';
 import { motion } from 'framer-motion';
 
 import { images } from '../../constants';
-import AppWrap from '../../wrapper/AppWrap';
+import {AppWrap, MotionWrap} from '../../wrapper/index';
 
 const scaleVariants={
     whileInView: {
@@ -35,7 +35,7 @@ const Header = () => {
 
                     <div className='tag-cmp app__flex'>
                             <p className='p-text'>Web Developer</p>
-                            <p className='p-text'>Fronend Developer</p>
+                            <p className='p-text'>Front end Developer</p>
                     </div>
 
                 </div>
@@ -75,4 +75,8 @@ const Header = () => {
      );
 }
  
-export default AppWrap(Header, 'home');
+export default AppWrap(
+    MotionWrap(Header, "app__header"),
+    "home",
+    "app__primarybg"
+  );
